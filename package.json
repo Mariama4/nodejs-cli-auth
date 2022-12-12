@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Using nodejs for create auth in cli",
   "main": "main.js",
+  "type": "module",
   "scripts": {
+    "start": "node main.js",
     "test": "eslint ."
   },
   "repository": {
